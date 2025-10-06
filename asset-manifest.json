@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/datamind-playground/static/css/main.e6c13ad2.css",
+    "main.js": "/datamind-playground/static/js/main.ab4e0254.js",
+    "static/js/453.f8a5ce12.chunk.js": "/datamind-playground/static/js/453.f8a5ce12.chunk.js",
+    "index.html": "/datamind-playground/index.html",
+    "main.e6c13ad2.css.map": "/datamind-playground/static/css/main.e6c13ad2.css.map",
+    "main.ab4e0254.js.map": "/datamind-playground/static/js/main.ab4e0254.js.map",
+    "453.f8a5ce12.chunk.js.map": "/datamind-playground/static/js/453.f8a5ce12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ab4e0254.js"
+  ]
+}
