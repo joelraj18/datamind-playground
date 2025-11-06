@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -9,34 +9,19 @@ s<!DOCTYPE html>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     
-    <!-- Load Tailwind CSS FIRST via unpkg (more reliable) -->
-    <script>
-      // Ensure Tailwind loads before anything else
-      document.write('<script src="https://unpkg.com/tailwindcss-cdn@3.4.1/tailwindcss.js"><\/script>');
-    </script>
-    
-    <!-- Fallback: Load via jsdelivr if unpkg fails -->
-    <script src="https://cdn.tailwindcss.com" onerror="this.onerror=null;this.src='https://unpkg.com/tailwindcss-cdn@3.4.1/tailwindcss.js'"></script>
+    <!-- Tailwind CSS via CDN - Use LINK tag instead of SCRIPT -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
     
     <!-- PapaParse for CSV parsing -->
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     
-    <title>DataMinds - AI Data Playground</title>
-    
-    <!-- Critical inline styles as final fallback -->
-    <style>
-      /* Emergency fallback if CDN fails */
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-      }
-      
-      #root {
-        min-height: 100vh;
-        background: linear-gradient(135deg, #0f172a 0%, #064e3b 50%, #0f172a 100%);
-        color: white;
-      }
+    <title>DataMind - AI Data Playground</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
       
       /* Basic utility classes if Tailwind doesn't load */
       .flex { display: flex; }
