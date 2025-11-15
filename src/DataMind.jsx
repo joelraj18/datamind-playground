@@ -1741,4 +1741,8 @@ const FeatureImportanceSection = ({ stats, correlations, bivariateData }) => {
             </div>
         </div>
     );
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 2b1df4e (feat: Add advanced EDA sections (Quality, Decision, Predictive))
