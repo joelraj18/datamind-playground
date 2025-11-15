@@ -1,5 +1,6 @@
-/* Remove all @tailwind directives when using CDN */
-/* Inline CSS in index.html handles all styling */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   margin: 0;
